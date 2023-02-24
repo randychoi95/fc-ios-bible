@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		98E0EE7429A892E0009900E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E0EE7329A892E0009900E1 /* AppDelegate.swift */; };
 		98E0EE7629A892E0009900E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E0EE7529A892E0009900E1 /* SceneDelegate.swift */; };
-		98E0EE7829A892E0009900E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E0EE7729A892E0009900E1 /* ViewController.swift */; };
 		98E0EE7B29A892E0009900E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98E0EE7929A892E0009900E1 /* Main.storyboard */; };
 		98E0EE7D29A892E0009900E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98E0EE7C29A892E0009900E1 /* Assets.xcassets */; };
 		98E0EE8029A892E0009900E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98E0EE7E29A892E0009900E1 /* LaunchScreen.storyboard */; };
+		98E0EE8829A89865009900E1 /* SymbolRollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E0EE8729A89865009900E1 /* SymbolRollerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		98E0EE7029A892E0009900E1 /* SymbolRoller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SymbolRoller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98E0EE7329A892E0009900E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98E0EE7529A892E0009900E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		98E0EE7729A892E0009900E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		98E0EE7A29A892E0009900E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98E0EE7C29A892E0009900E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98E0EE7F29A892E0009900E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98E0EE8129A892E0009900E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98E0EE8729A89865009900E1 /* SymbolRollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRollerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				98E0EE7329A892E0009900E1 /* AppDelegate.swift */,
 				98E0EE7529A892E0009900E1 /* SceneDelegate.swift */,
-				98E0EE7729A892E0009900E1 /* ViewController.swift */,
+				98E0EE8729A89865009900E1 /* SymbolRollerViewController.swift */,
 				98E0EE7929A892E0009900E1 /* Main.storyboard */,
 				98E0EE7C29A892E0009900E1 /* Assets.xcassets */,
 				98E0EE7E29A892E0009900E1 /* LaunchScreen.storyboard */,
@@ -138,9 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98E0EE7829A892E0009900E1 /* ViewController.swift in Sources */,
 				98E0EE7429A892E0009900E1 /* AppDelegate.swift in Sources */,
 				98E0EE7629A892E0009900E1 /* SceneDelegate.swift in Sources */,
+				98E0EE8829A89865009900E1 /* SymbolRollerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +287,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WR7QJFG927;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SymbolRoller/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -315,7 +315,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WR7QJFG927;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SymbolRoller/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
