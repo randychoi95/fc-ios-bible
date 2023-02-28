@@ -221,6 +221,9 @@
                                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
                                                     <color key="baseForegroundColor" systemColor="systemTealColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="changeButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S22-fW-l7m"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -243,6 +246,11 @@
                             <constraint firstItem="XWl-5x-vaH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="uUO-H9-ciF"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cityLabel" destination="1gv-C6-kGK" id="LL9-K0-k9M"/>
+                        <outlet property="temperatureLabel" destination="VFf-ld-FyO" id="6vf-5v-Jrl"/>
+                        <outlet property="weatherImageView" destination="5fx-jJ-GJh" id="qKe-02-EEC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
