@@ -19,6 +19,7 @@ class SymbolRollerViewController: UIViewController {
         super.viewDidLoad()
         
         reload()
+        button.tintColor = .systemPink
     }
     
     override func viewWillAppear(_ animated: Bool) {
